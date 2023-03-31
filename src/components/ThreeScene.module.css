@@ -1,0 +1,22 @@
+.canvas {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+  }
+  
+  .canvas canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.801);
+  }
+  
+  @media (max-width: 768px) {
+    .canvas {
+      padding-bottom: 40%;
+      height: 500px;
+    }
+  }

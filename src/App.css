@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* CSS for custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #4d4d4d;
+}
+
+
+/* Apply custom scrollbar to main content container */
+.main-content {
+  overflow-y: scroll;
+  scrollbar-width:auto;
+  scrollbar-color: #000000 #f5f5f5;
+}
